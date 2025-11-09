@@ -27,7 +27,7 @@ ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=lambda v: [s.strip() for s in v.spl
 
 # Database
 DATABASES = {
-    'default': dj_database_url.parse(config('DATABASE_URL'))
+    'default': dj_database_url.parse(config('postgresql://ip_tracking_usc9_user:qNPy1oE9xgCpZ9DYxk90DrN8mVK7XFqH@dpg-d48ef24hg0os73885k80-a/ip_tracking_usc9'))
 }
 
 # Celery
