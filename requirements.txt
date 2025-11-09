@@ -13,6 +13,7 @@ Django==4.2.26
 django-ratelimit==4.1.0
 djangorestframework==3.15.2
 drf-yasg==1.21.10
+gunicorn==23.0.0
 idna==3.11
 inflection==0.5.1
 kombu==5.5.4
